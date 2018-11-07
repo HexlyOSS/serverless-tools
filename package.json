@@ -1,0 +1,21 @@
+{
+  "name": "@hexly/serverless-tools",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm publish --access public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link-context": "^1.0.9",
+    "apollo-link-http": "^1.5.5",
+    "apollo-server-lambda": "^2.1.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "node-fetch": "^2.2.1",
+    "ramda": "^0.25.0"
+  }
+}
