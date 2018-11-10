@@ -1,6 +1,6 @@
 {
   "name": "@hexly/serverless-tools",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,16 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.2.1",
-    "ramda": "^0.25.0"
-  },
-  "peerDependencies": {
-    "graphql": "^0.12.0 || ^0.13.0 || ^14.0.0",
     "apollo-link-context": "^1.0.0",
     "apollo-link-http": "^1.5.0",
-    "apollo-server-lambda": "^2.1.0",
+    "apollo-server-lambda": "^2.2.0",
     "graphql-middleware": "^2.0.2",
-    "graphql-tools": "^4.0.3"
+    "graphql-tools": "^4.0.3",
+    "node-fetch": "^2.2.1",
+    "ramda": "^0.25.0",
+    "graphql": "~14.0.2"
   },
   "devDependencies": {
     "jest": "^23.6.0"
