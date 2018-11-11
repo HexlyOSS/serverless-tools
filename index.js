@@ -12,6 +12,7 @@ module.exports = {
   GraphQL: {
     server
   },
+  Middleware: require('./lib/middleware'),
   lib: {
     fetch,
     graphql,
