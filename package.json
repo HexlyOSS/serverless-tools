@@ -1,11 +1,11 @@
 {
   "name": "@hexly/serverless-tools",
-  "version": "0.0.15",
+  "version": "0.0.18",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm --no-git-tag-version version patch && npm publish --access public"
+    "lib:publish": "npm --no-git-tag-version version patch && npm publish --access public"
   },
   "author": "",
   "license": "ISC",
